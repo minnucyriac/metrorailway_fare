@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="background.master.cs" Inherits="User_background" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body  style="background:url(../images/metrosource.png) no-repeat 100% 0;">
+    <form id="form1" runat="server">
+       <%-- <div style="background-image:url('Images/metro.png');">
+        <div style="min-width:100px; width: 960px; height: 40px;
+            margin: 0px auto;">
+            <div style="padding-left: 10px; padding-top:5px;">--%>
+                <%--<table>
+                    <tr>
+                        <td>
+                            <a href="Enter.aspx" id="aEnterData">Enter Data</a>
+                        </td>
+                        <td>
+                            <a href="Veiw.aspx" id="aVeiwData">Veiw Data</a>
+                        </td>
+                    </tr>
+                </table>--%>
+       <%--     </div>
+        </div>--%>
+        <asp:contentplaceholder id="ContentPlaceHolder2" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

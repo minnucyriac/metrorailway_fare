@@ -1,0 +1,251 @@
+﻿
+
+
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Prologue by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+        <form id="Form1" runat="server">
+         <form method="post" action="loginReal.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="frm1">
+<div class="aspNetHidden">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="LLOBBlFQfCQRIrxtBH8WmOu8R5KDzAHZZPllFH9lXLaJUfouyg9FDu7+KKXvSqgUFr6ZNpaX3GquYUTsLjH7azA2g3U7S67yo0cIsgs6DSI=" />
+</div>
+
+<script type="text/javascript">
+    //<![CDATA[
+    var theForm = document.forms['frm1'];
+    if (!theForm) {
+        theForm = document.frm1;
+    }
+    function __doPostBack(eventTarget, eventArgument) {
+        if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+            theForm.__EVENTTARGET.value = eventTarget;
+            theForm.__EVENTARGUMENT.value = eventArgument;
+            theForm.submit();
+        }
+    }
+    //]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZCC3qhRP4iKWEf4b_OV3mAFNC7A5A9e_r2pxCdAytryHIb32eEGuNF02QZ4CEuwySg2&amp;t=635721426961924038" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakGERIjBPBZf3Ad0SWZdp-ZzA9_pyiERm5msI_ggjDKP7zN4IHVm1wiUTXr1KVf8X5UAUgkIPR5ooC5pddBtAe0c1&amp;t=635721426961924038" type="text/javascript"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    function WebForm_OnSubmit() {
+        if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+        return true;
+    }
+    //]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8634E513" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="9Q3fdzjxYdWaxnWIi1o9h2Gfx3LibOV8YcmkJXvDRQnoTMlUMA/2Opi6mgupDsDvocHb6wrr7bBCrPr8GECiRZWlXsdR1Sz0isU4nNAkZRtn0AeIhmotYcKg1pY9nifgVVhrPGnhY1uQOyia9f6v4+sOjUOv3ujiE9BQjNmfA9w=" />
+</div>
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Welcome To</h1>
+							<p>Kochi Metro</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="Homepage.aspx" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home page</span></a></li>
+								<li><a href="userprofile.aspx" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">My profile</span></a></li>
+								<li><a href="editprofile.aspx" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Edit Profile</span></a></li>
+								<li><a href="changepassword.aspx" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">change password</span></a></li>
+                                <li><a href="fairdetails.aspx" id="A1" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Fair Details</span></a></li>
+                                <li><a href="complaintregister.aspx" id="A2" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Register Complaint</span></a></li>
+                                <li><a href="walletrenew.aspx" id="A3" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Renew Wallet</span></a></li>
+                                <li><a href="usertraveldetails.aspx" id="A4" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Travel Details</span></a></li>
+                                <li><a href="Logout.aspx" id="A5" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Log Out</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+                            
+    <table class="auto-style1">
+        <tr>
+            <td class="auto-style2" style="width: 281px; text-align: right">&nbsp;LOGIN&nbsp;</td>
+            <td style="width: 540px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">&nbsp;</td>
+            <td style="width: 540px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">&nbsp;</td>
+            <td style="width: 540px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px; text-align: right">USERNAME<br />
+            </td>
+            <td style="width: 540px">
+                <input name="ctl00$ContentPlaceHolder1$txtuname" type="text" id="ContentPlaceHolder1_txtuname" style="width:286px;" />
+                <span style="color: #FF0000">*</span></td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px; text-align: right">PASSWORD<br />
+            </td>
+            <td style="width: 540px">
+                <input name="ctl00$ContentPlaceHolder1$txtpassword" type="password" id="ContentPlaceHolder1_txtpassword" style="width:285px;" />
+                <span class="auto-style3" style="color: #FF0000">*</span><span id="ContentPlaceHolder1_RequiredFieldValidator2" style="color:#FF0000;visibility:hidden;">Enter Password</span>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">&nbsp;</td>
+            <td style="width: 540px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">&nbsp;</td>
+            <td style="width: 540px">
+                <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="LOGIN" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_Button1" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">&nbsp;</td>
+            <td style="width: 540px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">
+                &nbsp;</td>
+            <td style="width: 540px">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">&nbsp;</td>
+            <td style="width: 540px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">&nbsp;</td>
+            <td style="width: 540px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">&nbsp;</td>
+            <td style="width: 540px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2" style="width: 281px">&nbsp;</td>
+            <td style="width: 540px">&nbsp;</td>
+        </tr>
+    </table>
+
+							
+
+							<footer>
+								
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<h3>
+
+	
+        
+    
+                </div>
+    
+<script type="text/javascript">
+    //<![CDATA[
+    var Page_Validators =  new Array(document.getElementById("ContentPlaceHolder1_RequiredFieldValidator2"));
+    //]]>
+</script>
+
+<script type="text/javascript">
+    //<![CDATA[
+    var ContentPlaceHolder1_RequiredFieldValidator2 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator2"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator2");
+    ContentPlaceHolder1_RequiredFieldValidator2.controltovalidate = "ContentPlaceHolder1_txtpassword";
+    ContentPlaceHolder1_RequiredFieldValidator2.errormessage = "Enter Password";
+    ContentPlaceHolder1_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+    ContentPlaceHolder1_RequiredFieldValidator2.initialvalue = "";
+    //]]>
+</script>
+
+
+<script type="text/javascript">
+    //<![CDATA[
+
+    var Page_ValidationActive = false;
+    if (typeof(ValidatorOnLoad) == "function") {
+        ValidatorOnLoad();
+    }
+
+    function ValidatorOnSubmit() {
+        if (Page_ValidationActive) {
+            return ValidatorCommonOnSubmit();
+        }
+        else {
+            return true;
+        }
+    }
+    //]]>
+</script>
+</form>
+</body>
+</html>

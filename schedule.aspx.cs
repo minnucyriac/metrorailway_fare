@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 public partial class Guest_Default : System.Web.UI.Page
 {
-    Cls_metro obj = new Cls_metro();
+    Cls_Metro obj = new Cls_Metro();
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)

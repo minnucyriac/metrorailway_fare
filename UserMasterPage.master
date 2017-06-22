@@ -8,7 +8,7 @@
 -->
 <html>
 	<head>
-		<title>KOCHI METRO</title>
+		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -25,9 +25,9 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="image/avatar.jpg" alt="" /></span>
-							<h1 id="title">Kochi Metro</h1>
-							<%--<p>Welcome</p>--%>
+							<span class="image avatar48"><img src="images/default_user-abdf6434cda029ecd32423baac4ec238.png" alt="" /></span>
+							<h1 id="title">Welcome To</h1>
+							<p>Kochi Metro</p>
 						</div>
 
 					<!-- Nav -->
@@ -46,10 +46,15 @@
 
 							-->
 							<ul>
-								<li><a href="userprofile.aspx" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Viewprofile</span></a></li>
-								<li><a href="#editprofile.aspx" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Editprofile</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+								<li><a href="Homepage.aspx" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home page</span></a></li>
+								<li><a href="userprofile.aspx" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">My profile</span></a></li>
+								<li><a href="editprofile.aspx" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Edit Profile</span></a></li>
+								<li><a href="changepassword.aspx" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">change password</span></a></li>
+                                <li><a href="fairdetails.aspx" id="A1" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Fair Details</span></a></li>
+                                <li><a href="complaintregister.aspx" id="A2" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Register Complaint</span></a></li>
+                                <li><a href="walletrenew.aspx" id="A3" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Renew Wallet</span></a></li>
+                                <li><a href="usertraveldetails.aspx" id="A4" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Travel Details</span></a></li>
+                                <li><a href="Logout.aspx" id="A5" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Log Out</span></a></li>
 							</ul>
 						</nav>
 
@@ -76,23 +81,25 @@
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
 						<div class="container">
-
-							<header>
-								<h2 class="alt"> <strong>Hi! Welcome to Kochi Metro</strong><a href="http://html5up.net/license"></a><br />
-								<a href="http://html5up.net"></a>.</h2>
-								<p>Ligula scelerisque justo <br />
+                            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+							<%--<header>
+								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
+								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
+								<p>Ligula scelerisque justo sem accumsan diam quis<br />
 								vitae natoque dictum sollicitudin elementum.</p>
-							</header>
+							</header>--%>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<%--<a href="#portfolio" class="button scrolly">Magna Aliquam</a>--%>
 							</footer>
 
 						</div>
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<h3><%--<section id="portfolio" class="two">
 						<div class="container">
 
 							<header>
@@ -107,13 +114,13 @@
 							<div class="row">
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="image/pic02.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 										<header>
 											<h3>Ipsum Feugiat</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="image/pic03.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
 											<h3>Rhoncus Semper</h3>
 										</header>
@@ -121,27 +128,23 @@
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="image/pic04.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
 										<header>
 											<h3>Magna Nullam</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="image/pic05.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
 										<header>
 											<h3>Natoque Vitae</h3>
 										</header>
 									</article>
 								</div>
-								<div class="4u$ 12u$(mobile)">
-									<article class="item">
-										<a href="#" class="image fit"><img src="image/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
+								<div class="4u$ 1--%><%--Dolor Penatibus</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="image/pic07.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
 										<header>
 											<h3>Orci Convallis</h3>
 										</header>
@@ -160,7 +163,7 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="image/pic08.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 
 							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
 							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
@@ -222,11 +225,13 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
+	</body>
+</html>--%>
+
 	
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
+        <%----%>
     <%--</div>--%>
+                </div>
     </form>
 </body>
 </html>

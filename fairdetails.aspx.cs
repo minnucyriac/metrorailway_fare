@@ -4,9 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data;
 
-public partial class Admin_Default : System.Web.UI.Page
+public partial class User_Default : System.Web.UI.Page
 {
     Cls_Metro obj = new Cls_Metro();
     protected void Page_Load(object sender, EventArgs e)
@@ -18,7 +17,7 @@ public partial class Admin_Default : System.Web.UI.Page
     }
     public void fillgrid()
     {
-        string sel = "select * from tbl_complaint";
+        string sel = "select * from tbl_rate";
         obj.FillGridView(sel, GridView1);
     }
     protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)

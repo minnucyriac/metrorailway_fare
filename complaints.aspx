@@ -26,7 +26,7 @@
         </tr>
         <tr>
             <td class="auto-style2">
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="665px">
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" style="text-align: center" Width="665px">
                     <Columns>
                         <asp:BoundField DataField="complaint_id" HeaderText="Complaint Id" />
                         <asp:BoundField DataField="complaint_title" HeaderText="Complaint Title" />

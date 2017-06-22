@@ -11,4 +11,10 @@ public partial class User_Default : System.Web.UI.Page
     {
 
     }
+    protected void btnsave_Click(object sender, EventArgs e)
+    {
+       Session["flag"] = 1;
+        Session["amount"] = txtwamt.Text;
+        Response.Redirect("~/Guest/Payment1/First.aspx");
+    }
 }
